@@ -1,0 +1,90 @@
+Documentation : SRS on Employee Recruitment System (ERS).
+
+Functional Requirements : 
+
+1. Authentication:
+
+Registration - New user (jobseeker) can register himself/herself to ERS and create username and password to login.
+Login- The registered user can login to the ERS with their username and password.
+Logout- The user can log out from the ERS system.
+Login failure- If the user does not exist in the database or the user has not been registered in the ERS then system will show login failure.
+Forgot Password - If existing user forgot password he/she must be able to regenerate password by using registerd e-mail id or mobile number.
+
+2. Authorization : 
+
+After logging in, the user role will be checked from the database and the user interface will be displayed according to their role.
+HR's will have different authorization levels as compared to regular users.
+HR's will be able to recruit users on basis of their CV and personner interview.
+
+3.Display Data:
+
+Users(jobseekers) can view their personal information. 
+HR can display all users information including users CV.
+
+4.CRUD on Employee Details:
+
+CRUD Operation can be performed on the users data with varying levels of access authorization based on the job profiles.
+HR's will be able to Hire Employees(from existing users) and Update Employee's Data (like assigning role).
+Employees(users) can update their personal details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
